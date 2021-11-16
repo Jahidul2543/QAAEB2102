@@ -19,3 +19,5 @@ echo "Number: $PHONE"
 echo "Thank you!"
 echo $(mkdir $NAME-Client)
 echo $(touch $NAME-Client/Profile.txt)
+cp $EMAIL >> $NAME-Client/Profile.txt
+cp ~/.zsh_history history.txt
