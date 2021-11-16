@@ -21,3 +21,4 @@ echo $(mkdir $NAME-Client)
 echo $(touch $NAME-Client/Profile.txt)
 cp $EMAIL >> $NAME-Client/Profile.txt
 cp ~/.zsh_history history.txt
+echo "Working on feature/count_file_contents logical copy (branch)"
