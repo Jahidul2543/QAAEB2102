@@ -1,0 +1,23 @@
+{
+  "name": "Abu Sufian",
+  "age" : 25,
+  "birth_year" : 1996,
+  "id" : "QAAE002",
+  "course" : "QA",
+  "is_student_active" : true,
+  "job_status" : null,
+  "grade": "",
+  "education" :{
+    "high_school": "LV High School",
+    "college" : "Dyouillvi College"
+  },
+  "modules" : [
+    "SDLC",
+    "Software Development Fundamentals",
+    "Networking",
+    "SQL",
+    "Java",
+    "Shell Scripting"
+  ]
+
+}

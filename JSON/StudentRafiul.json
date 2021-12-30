@@ -1,0 +1,23 @@
+{
+  "name": "Rafiul",
+  "age" : 25,
+  "birth_year" : 1997,
+  "id" : "QAAE001",
+  "course" : "QA",
+  "is_student_active" : true,
+  "job_status" : null,
+  "grade": "",
+  "education" :{
+    "high_school": "Art and Design High School",
+    "college" : "City College Of New York"
+  },
+  "modules" : [
+    "SDLC",
+    "Software Development Fundamentals",
+    "Networking",
+    "SQL",
+    "Java",
+    "Shell Scripting"
+  ]
+
+}
