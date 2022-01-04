@@ -12,6 +12,7 @@ public class Phone {
     public static void main(String[] args) {
         Phone jahidulsPhone = new Phone();
        boolean connectionStatus = jahidulsPhone.call(3474134475l); // true / false
+        // This line prints in the terminal/console
         System.out.println("Connection Status: " + connectionStatus);
         jahidulsPhone.text(3474134475l);
     }
@@ -37,6 +38,10 @@ public class Phone {
 
     public void text(long phoneNumber){
         System.out.println("Texting....." + phoneNumber);
+    }
+
+    public void listenMusic(){
+        System.out.println("Listen Music.....");
     }
 
 }
