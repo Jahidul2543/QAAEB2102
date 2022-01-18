@@ -8,5 +8,5 @@ public abstract class PreNokia implements SymbianPhone {
     public void text(){
         System.out.println("Send text method in PreNokia Abstract Class");
     }
-    abstract public void phoneBook();
+    abstract public void phoneBook(int arg2, String arg1);
 }

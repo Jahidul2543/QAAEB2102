@@ -8,9 +8,9 @@ public class TryCatchDemo {
         try {
             int result = a / b;
         }
-        catch (ArithmeticException exception){
-            exception.printStackTrace();
-            String str = exception.getMessage();
+        catch (ArithmeticException e){
+            e.printStackTrace();
+            String str = e.getMessage();
             System.out.println(str);
         }
         // connect db -> Problems - Credentials, internet problem, Database server might be down.
